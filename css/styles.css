@@ -339,6 +339,10 @@ color: #212121;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
 
   .form-field {
@@ -830,6 +834,10 @@ color: var(--text-heading);
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
   outline: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .subscription-input::placeholder {
@@ -845,7 +853,7 @@ color: rgba(255, 255, 255, 0.6);
 .subscription-input:hover,
 .subscription-input:focus{
         border-color: #2196F3;
-      }
+        }
 
       .subscription-button {
         display: flex;
