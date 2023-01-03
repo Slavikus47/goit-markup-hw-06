@@ -303,9 +303,8 @@ padding-bottom: 94px;
   }
 
   .modal-header {
-    padding-bottom: 12px;
-    margin: 0;
-font-family: 'Roboto';
+    margin-bottom: 12px;
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -339,7 +338,7 @@ color: #212121;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
-    transition-property: color;
+    transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -355,6 +354,9 @@ color: #212121;
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
 
   .form-field-input:focus,
@@ -378,6 +380,9 @@ color: #212121;
     border-radius: 4px;
     outline: none;
     resize: none;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field-textarea:hover,
@@ -825,6 +830,7 @@ color: var(--text-heading);
 }
 
 .subscription-input {
+  padding: 15px 16px;
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -834,7 +840,7 @@ color: var(--text-heading);
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
   outline: none;
-  transition-property: color;
+  transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
